@@ -1,0 +1,3 @@
+[INFO ] 2020-05-05 11:08:07.066 [main] TC001_Get_All_Employees - *************************started TC001_Get_All_Employees **********************************
+[ERROR] 2020-05-05 11:08:07.084 [main] TC001_Get_All_Employees - Log4j appender configuration is successful !!
+[INFO ] 2020-05-05 11:08:07.084 [main] TC001_Get_All_Employees - ****************checking response body****************

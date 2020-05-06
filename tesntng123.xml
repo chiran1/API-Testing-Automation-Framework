@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.employeeapi.utilities.Listeners"></listener>
+	</listeners>
+	<test name="rrtestassuredtests">
+
+		<classes>
+			<class name="com.employeeapi.testCases.TC001_Get_All_Employees" />
+			<class
+				name="com.employeeapi.testCases.TC002_GET_Single_Employee_Record" />
+			<class
+				name="com.employeeapi.testCases.TC003_POST_Employee_Record" />
+			<class
+				name="com.employeeapi.testCases.TC004_PUT_Employee_Record" />
+
+		</classes>
+
+	</test>
+
+
+</suite>

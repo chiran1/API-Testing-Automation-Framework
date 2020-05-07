@@ -7,13 +7,14 @@
 	<test name="rrtestassuredtests">
 
 		<classes>
-			<class name="com.employeeapi.testCases.TC001_Get_All_Employees" />
+
+			<class name="com.employeeapi.testCases.TC001_Get_All_Employees"></class>
 			<class
-				name="com.employeeapi.testCases.TC002_GET_Single_Employee_Record" />
+				name="com.employeeapi.testCases.TC002_GET_Single_Employee_Record"></class>
 			<class
-				name="com.employeeapi.testCases.TC003_POST_Employee_Record" />
+				name="com.employeeapi.testCases.TC003_POST_Employee_Record"></class>
 			<class
-				name="com.employeeapi.testCases.TC004_PUT_Employee_Record" />
+				name="com.employeeapi.testCases.TC004_PUT_Employee_Record"></class>
 
 		</classes>
 

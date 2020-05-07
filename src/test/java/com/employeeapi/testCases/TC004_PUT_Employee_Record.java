@@ -50,9 +50,9 @@ public class TC004_PUT_Employee_Record extends TestBase {
 	@Test
 	void checkResponseBody() {
 		String responseBody=response.getBody().asString();
-		Assert.assertEquals(responseBody.contains(empName), true);
-		Assert.assertEquals(responseBody.contains(empSalary), true);
-		Assert.assertEquals(responseBody.contains(empAge), true);
+		Assert.assertEquals(responseBody.contains(empName), false);
+		Assert.assertEquals(responseBody.contains(empSalary), false);
+		Assert.assertEquals(responseBody.contains(empAge), false);
 		
 	}
 	

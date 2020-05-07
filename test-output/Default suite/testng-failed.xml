@@ -3,15 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.employeeapi.testCases.TC005_DELETE_Employee_Record">
+      <class name="com.employeeapi.testCases.TC004_PUT_Employee_Record">
         <methods>
-          <include name="getEmployeeData"/>
-          <include name="tearDown"/>
           <include name="checkResponseBody"/>
-          <include name="checkStatusCode"/>
+          <include name="tearDown"/>
           <include name="setup"/>
+          <include name="createEmployee"/>
         </methods>
-      </class> <!-- com.employeeapi.testCases.TC005_DELETE_Employee_Record -->
+      </class> <!-- com.employeeapi.testCases.TC004_PUT_Employee_Record -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
